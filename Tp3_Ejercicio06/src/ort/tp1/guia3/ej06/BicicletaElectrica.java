@@ -11,7 +11,7 @@ public class BicicletaElectrica extends Bicicleta {
 	}
 
 	public boolean cumpleRequisitos() {
-		return potencia <= MAX_POT;
+		return (potencia <= MAX_POT && super.cumpleRequisitos());
 	}
 	
 }
