@@ -6,6 +6,7 @@ import java.util.List;
 public class main {
 
 	public static void main(String[] args) {
+		
 		Taller t = new Taller();
 		
 		ArrayList<Bicicleta> lista = new ArrayList<>();
