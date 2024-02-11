@@ -5,7 +5,7 @@ public class Vehiculo {
 	CategoriaVehiculo categoria;
 	
 	public double obtenerImporteBase() {
-		return this.categoria.ordinal();
+		return this.categoria.getTarifaBase();
 	}
 
 
