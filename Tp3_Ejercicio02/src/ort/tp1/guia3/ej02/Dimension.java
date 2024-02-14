@@ -1,4 +1,4 @@
-package ejercicio_2;
+package ort.tp1.guia3.ej02;
 
 public class Dimension {
 	
