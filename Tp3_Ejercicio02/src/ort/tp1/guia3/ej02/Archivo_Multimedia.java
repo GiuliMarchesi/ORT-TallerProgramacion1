@@ -17,7 +17,7 @@ public class Archivo_Multimedia extends Archivo{
 			resultado = "Se paro la reproduccion";
 		}else {
 			this.estaEnReproduccion = true;
-			resultado = "En reproducción";
+			resultado = "En reproducción.";
 		}
 		System.out.println(resultado);
 	}
