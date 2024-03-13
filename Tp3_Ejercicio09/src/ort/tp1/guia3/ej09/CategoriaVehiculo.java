@@ -7,6 +7,7 @@ public enum CategoriaVehiculo {
 
 	private double tarifaBase;
 	
+	//constructor
 	CategoriaVehiculo(double tarifaBase) {
 		this.tarifaBase = tarifaBase;
 	}
